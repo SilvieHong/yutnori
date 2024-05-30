@@ -24,7 +24,7 @@ map.set(2, "GAE");
 map.set(3, "GEOL");
 map.set(4, "YUT");
 
-// key값으로 value값 가져오는 함수 (우회)
+// key값으로 value값 가져오는 함수
 function getKeyByValue(map, value) {
   for (let [key, val] of map.entries()) {
     if (val === value) {

@@ -26,7 +26,7 @@ h1 {
   padding: 20px;
   background: #ffffff;
   border-radius: 20px;
-  overflow: hidden; /*빠져나오는 컨텐츠 숨기기.. 필요함?*/
+  overflow: hidden;
 }
 .result {
   margin-top: 50px;
