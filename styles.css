@@ -1,0 +1,46 @@
+body {
+  background-color: #ffdd99;
+}
+img {
+  width: 5%;
+  margin: 1%;
+}
+.yut {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  text-align: center;
+}
+.modal_popup {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden; /*빠져나오는 컨텐츠 숨기기.. 필요함?*/
+}
+.result {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.score {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.move {
+  font-size: 2rem;
+}
+
+.description {
+  font-size: 100%;
+}
