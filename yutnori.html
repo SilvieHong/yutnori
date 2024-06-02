@@ -28,13 +28,15 @@
 
       <!--MENU-->
       <div class="menu">
-        <button class="button btnFloat btnBlueGreen">RETRY</button>
-        <button class="button btnFloat btnOrange">DESCRIPTION</button>
+        <button class="button btnBlueGreen" onclick="retryButton()">
+          RETRY
+        </button>
+        <button class="button btnOrange show-modal">HOW TO</button>
       </div>
 
       <!--MODAL-->
-      <!-- <div class="modal">
-        <div class="modal_popup">
+      <div class="modal hidden">
+        <div class="youtube">
           <iframe
             width="560"
             height="315"
@@ -45,16 +47,15 @@
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
-          <br />
-          <div class="description">
-            Yutnori is traditional Korean board game, <br />which, has been
-            played by families during major holidays. <br />The game has players
-            throw four yut to move their tokens on a 29-dot board.
-            <br />Depending on how the sticks are thrown, a token can be moved
-            up to five dots at once. <br />Just like rolling a dice!
-          </div>
         </div>
-      </div> -->
+        <div class="description">
+          Yutnori is traditional Korean board game, <br />which, has been played
+          by families during major holidays. <br />Depending on how the sticks
+          are thrown, <br />a token can be moved up to five. <br />Just like
+          rolling a dice!
+        </div>
+      </div>
+      <div class="overlay hidden"></div>
     </div>
     <script src="index.js" charset="utf-8"></script>
   </body>
